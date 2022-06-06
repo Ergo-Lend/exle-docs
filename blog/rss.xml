@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Exle Dev Docs Blog</title>
+        <link>https://exle.github.io/blog</link>
+        <description>Exle Dev Docs Blog</description>
+        <lastBuildDate>Sun, 05 Jun 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://exle.github.io/blog/welcome</link>
+            <guid>welcome</guid>
+            <pubDate>Sun, 05 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome to the start of a very new journey.]]></description>
+            <content:encoded><![CDATA[<p>Welcome to the start of a very new journey.</p><p>We're excited to see what's to come in the future.</p><p>Build on.</p>]]></content:encoded>
+            <category>exle</category>
+            <category>hello</category>
+            <category>backend</category>
+        </item>
+    </channel>
+</rss>
