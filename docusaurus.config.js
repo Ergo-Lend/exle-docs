@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Exle Dev Docs',
   tagline: 'Development in Exle',
-  url: 'https://exle.github.io',
+  url: 'https://ergo-lend.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
