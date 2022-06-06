@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkexle_docs=self.webpackChunkexle_docs||[]).push([[888],{4939:function(e){e.exports=JSON.parse('{"label":"backend","permalink":"/deco-docs/blog/tags/backend","allTagsPath":"/deco-docs/blog/tags","count":1}')}}]);

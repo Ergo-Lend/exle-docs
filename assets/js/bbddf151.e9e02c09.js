@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkexle_docs=self.webpackChunkexle_docs||[]).push([[96],{6845:function(e){e.exports=JSON.parse('{"label":"exle","permalink":"/deco-docs/blog/tags/exle","allTagsPath":"/deco-docs/blog/tags","count":1}')}}]);
