@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkexle_docs=self.webpackChunkexle_docs||[]).push([[653],{2271:function(e){e.exports=JSON.parse('{"permalink":"/exle-docs/blog/tags/backend","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
