@@ -9,7 +9,7 @@ const config = {
   title: 'Exle Dev Docs',
   tagline: 'Development in Exle',
   url: 'https://ergo-lend.github.io',
-  baseUrl: '/',
+  baseUrl: '/exle-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
