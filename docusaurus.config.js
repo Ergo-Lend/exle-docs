@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/exle-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/Exle_avatar2.svg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
