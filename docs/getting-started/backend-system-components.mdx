@@ -8,6 +8,12 @@ sidebar_position: 1
 
 The exle system is built on top of the [Ergo Blockchain](https://explorer.ergoplatform.com/). The current system consists of these few parts:
 
+:::danger Partially Documented 
+
+This system is partially documented. Some are documented some are not.
+
+:::
+
 | Components | Description |
 | ----------- | ------------ |
 | On-Chain System | There are a few protocols that will exists on the on-chain system that will allow different kind of lending like, single-lender, or multi-lender loans. The development of this system involves writing ErgoScript contracts and testing it to ensure that the system is free of vulnerabilities. |
@@ -26,7 +32,7 @@ The on-chain system focuses on the decentralized protocol of the system. The des
 | 3. Contracts of each boxes | Guard Script of the boxes that determines whether a boxes can be spent or not. These scripts are normally engineered when the Scenarios and eUTxO boxes are designed |
 | 4. Security tests | Write tests to efficiently find bugs and vulnerabilities within the contract. Other than that, tests are used to ensure that scenarios are working as it should be |
 
-## Off-Chain Bot {#bot}
+## Off-Chain System {#offchain}
 The bot processes boxes that are ready to move on to the subsequent stage of the transaction flow. It also aims to provide scalability in the processing of transaction by streamlining the process to avoid bottleneck conditions.
 
 Development in this area involves:

@@ -7,6 +7,7 @@ sidebar_position: 2
 # Exle Tx Bot
 
 ```text title="Development Status"
+Version: 1st Draft
 IsImplemented: false
 CurrentStatus: Code Design
 ```
