@@ -1,0 +1,74 @@
+---
+sidebar_position: 1
+---
+
+# Exle in a Nutshell
+
+Think Kiva.org without the centralized party.
+
+## What is Exle?
+
+Exle is a decentralized application that provides accounting and custodial services in the realm of lending, on the blockchain. It seeks to facilitate the transactions of **Uncollateralized Lending** by introducing a record-book system on the blockchain that keeps track of loans that are existing and provide services that ease the process of lending and repayment for both lenders and borrowers in the ecosystem. 
+
+## The Ecosystem
+There are many parts in the exle ecosystem that helps ensure the success of the protocol. 
+
+Each parts consists of members from the communities that holds important roles to ensure the success of the project and protocol. These parts and roles can be further broken down in this list:
+
+1. **Community**
+2. **Front End (Website)**
+3. **Back End (Off-Chain)**
+4. **Back End (On-Chain)**
+
+
+### **Community**
+
+Exle is a community first protocol. Many people have questioned how can loan returns be guaranteed if it's uncollateralized and the transaction are between people from different parts of the world who don't know each other.
+
+The answer to that is that, it can't.
+
+Exle cannot guarantee that a loan will be repaid. And that's why the community, in programming terms we would call, first class citizens of the protocol. The health of the community, both lenders, and borrowers are maintained by the community itself. We expect scam loans to start popping up, as scammers are on the run. But with a solid community and community development programme, we can reduce the risks of becoming scam victims, and utilize the platform to its maximum potential.
+
+The roles that pertains in this part are (but are not limited to):
+| Roles | Description |
+| ----------- | ----------- |
+| Community Developers | Develop communities of borrowers and lenders around regions of the world and cultivate practices to ensure healthy communities are integrated into the ecosystem.|
+| Lenders | Users who are interested in providing financial help to borrowers within the ecosystem by loaning their funds to borrowers with the option of receiving interest rate (proposed by borrowers) for their transaction. |
+| Borrowers | Users within the ecosystem seeking financial help by requesting loans and deciding on the interest rate that is fair for lenders and rate that they would be able to successfully repay. |
+| Borrowing Organizations | These are normally organizations that are involved in acting as a form of guarantors to borrowers who are seeking out loan. They are also involved in building their borrower community and seeks to build and maintain trusts between borrowers and lenders.|
+
+### **Front End**
+A user friendly website is essential to allow users to efficiently utilize Exle's services and protocol, and provide straightforward system to lend and repay loans.
+
+This can help improve the success of lending and repayments, by reducing the confusion and frustrations that may exists when utilizing the platform.
+
+The current team consists of Front-end developers lead by **TorchTheMall**.
+
+**Development** involves:
+| Product | Description |
+| ----------- | --------- |
+| Marketing Site | Main site that displays information regarding Exle that focuses on all things marketing |
+| App | The front-end that is connected to the back-end of Exle's system. This will make calls to the backend to retrieve the accounting information of loans and repayments. It also facilitates the retrieval of payment information for creating loans, funding loans, and repayment of loans. |
+
+If interested in participating in Front-End development, reach out to [**TorchTheMall**](https://twitter.com/lommaj).
+
+Github link to [frontend](https://github.com/Ergo-Lend/front-end).
+
+
+### **Back End**
+The system that interacts with the blockchain and does the heavy lifting behind the scenes.
+
+The backend of the system processes the transactions and submits it to the blockchain. It is divided into two parts, off-chain and on-chain, but are heavily intertwined. And one cannot exists without the other.
+
+This part of the system are divided into a few parts:
+| Components | Description |
+| ----------- | ------------ |
+| On-Chain System | There are a few protocols that will exists on the on-chain system that will allow different kind of lending like, single-lender, or multi-lender loans. The development of this system involves writing ErgoScript contracts and testing it to ensure that the system is free of vulnerabilities. |
+| Off-Chain Bot | The Ergo blockchain uses eUTxO system and transactions on the blockchain creates boxes that can either be spent or not based on its Guard Script (ErgoScript contract). The goal of the off-chain bots is to **find boxes that are ready to be spent** to move on to the next stage of the lending process. |
+| Loan System | The backend loan system seeks to create systems that focuses on processing data and output it in formats that reduces the confusion and increase the confidence of users when utilizing the Exle system. The goal of this is to provide users (Lenders and Borrowers) efficient tooling to help lenders succeed in identifying credible loans and borrowers to repay their loans efficiently and successfully |
+
+If interested in participating in back-end development. Reach out to [**HaskellPlus**](https://twitter.com/Haskell_plus) to get in contact with the backend lead. Or join our discord channel to get in touch.
+
+Github link to [backend](https://github.com/Ergo-Lend/exle-dot).
+
+### There are a lot of work to be done. Let's dive in ;)
