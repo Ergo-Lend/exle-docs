@@ -1,0 +1,54 @@
+---
+id: backend-system-components
+title: Backend Components of Exle
+sidebar_position: 2
+---
+
+# Backend Components of Exle
+
+The exle system is built on top of the [Ergo Blockchain](https://explorer.ergoplatform.com/). The current system consists of these few parts:
+
+| Components | Description |
+| ----------- | ------------ |
+| On-Chain System | There are a few protocols that will exists on the on-chain system that will allow different kind of lending like, single-lender, or multi-lender loans. The development of this system involves writing ErgoScript contracts and testing it to ensure that the system is free of vulnerabilities. |
+| Off-Chain Bot | The Ergo blockchain uses eUTxO system and transactions on the blockchain creates boxes that can either be spent or not based on its Guard Script (ErgoScript contract). The goal of the off-chain bots is to **find boxes that are ready to be spent** to move on to the next stage of the lending process. |
+| Loan System | The backend loan system seeks to create systems that focuses on processing data and output it in formats that reduces the confusion and increase the confidence of users when utilizing the Exle system. The goal of this is to provide users (Lenders and Borrowers) efficient tooling to help lenders succeed in identifying credible loans and borrowers to repay their loans efficiently and successfully |
+
+--------------------
+
+## On-Chain System {#onchain}
+The on-chain system focuses on the decentralized protocol of the system. The design follows a transaction pattern that allows financial procedure to carry out as it should. This includes
+
+| Processes | Description |
+| --- | --- |
+| 1. Scenarios and Tx Flow | The transaction follows certain flows based on the scenario. Each scenarios are mapped out for each of contract engineering |
+| 2. eUTxO Box Design | Designing the boxes to efficiently plan and provide a solid understanding and map to navigate the engineering of the contract and off-chain system |
+| 3. Contracts of each boxes | Guard Script of the boxes that determines whether a boxes can be spent or not. These scripts are normally engineered when the Scenarios and eUTxO boxes are designed |
+| 4. Security tests | Write tests to efficiently find bugs and vulnerabilities within the contract. Other than that, tests are used to ensure that scenarios are working as it should be |
+
+## Off-Chain Bot {#bot}
+The bot processes boxes that are ready to move on to the subsequent stage of the transaction flow. It also aims to provide scalability in the processing of transaction by streamlining the process to avoid bottleneck conditions.
+
+Development in this area involves:
+| Processes | Description |
+| --- | --- |
+| 1. Tx scenarios Modeling | Scenarios are fed into the bot to run transactions efficiently |
+| 2. Box retrieval | Retrieving the necessary boxes and information to process |
+| 3. Tx Handling | After retrieving the box, the bot have to know which transactions to be run on which boxes and what stages |
+| 4. Signing & Sending of Txs to the blockchain | As we aim to improve scalability of our system, we will move towards bulk chained txs. This may or may not involve signing at the end of the bulk processes. Therefore this step is included to ensure that the process is not forgotten |
+| 5. Scalability | As we move forward, we are constantly thinking of ways we can allow the system to scale efficiently. Though not a high priority right now, it will be a big part of our investment in the future as users of the protocol increases |
+| 6. Decentralization | Other than scalability, we aim to decentralized our system so that other parties can run the bot and facilitate the process of decentalization of the protocol. This is highly intertwined with the design of the On-Chain system. |
+
+## Loan System {#loan}
+Lastly, the introduction of a loan system that provides the necessary information that facilitate successful loan journey is critical. Different processes have to be implemented to help improve this. Though this system can be built by other custodians in the future, we aim to provide a good enough system for our users to get the ball rolling.
+
+Development in this area includes:
+| Processes | Description |
+| ---- | ---- |
+| 1. Loan Planner and Modeler | The success of a loan can be determined by the information and details that are put into a loan. It is easy to say, "I need 20k to run this business", but that does not give the *Lenders* the confidence that the borrower will pay back, nor does it give the borrower a good idea on how he should pay it back. The Loan Planner gives Borrowers the tools to efficiently craft out a plan for the loan that they are going to take out, and a plan on how they will repay them. This gives the lenders a better understanding of the plan and the confidence that the borrowers will be able to repay the loan (based on the plan created), and also provide the Borrower with a solid plan to follow and repay. |
+| 2. My Loans | When the system goes live, and loans starts to be created. There needs a system for the Borrowers to keep track of their loans, and Lenders to keep track of loans that they have funded. A `My Loans` system help users of the system to keep track of the different loans that they have funded with ease. This allows them to follow up if needed and provide them an ease of mind as their loans are not lost in the sea of other loans |
+| 3. Repayment Plan | When we don't need to think about other things, we can focus on the important things at hands. We envision that legit borrowers are people who are looking to start businesses and requires the capital. They were able to get funding for their capital and now they have to put in the work to reap the gains. Having a repayment plan built-in allows them to focus on what matters, and repay loans without needing to hold a calculator on their left hand while typing the amount to repay on their right. A solid repayment plan will reduce the amount of frustration and confusion may have during repayment, and ensure success in repaying their loans. |
+
+::: note
+The repayment plan does not mean we create a repayment plan for the borrowers, but rather use the accounting information of the loans to model a repayment plan for the borrowers to give them a good visualization of their duties of repayment.
+:::
