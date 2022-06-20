@@ -1,10 +1,10 @@
 ---
-id: sle-loan
-title: SLE (Single Lender Ergs) Loans
+id: sle-loan-box-design
+title: SLE (Single Lender Ergs) Loans Box Design
 sidebar_position: 1
 ---
 
-# SLE (Single Lender Ergs) Loans
+# SLE (Single Lender Ergs) Loans Box Design
 
 ```text title="Development Status"
 IsImplemented: true
