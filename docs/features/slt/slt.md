@@ -28,8 +28,8 @@ In this article, we will discuss about the implementation that will be implement
 
 | Components | Description | Status | Authored By |
 | -------- | --------- | ------ | ------ |
-| 1. Exle-Generics | Exle-Generics is a module and building tool that will help with designing and utilizing boxes from the blockchain. The goal of this module is to provide building blocks, Box, Registers, Box Wrappers, Register Wrappers, Generic Txs and Txs Wrappers. | In Progress | Cheese & Kii |
-| 2. SLT-Components | SLT-Components are components that are built in the Single-Lender module. It takes the design for SLT boxes and transactions and implements it on top of the Generics modules. This allows the ease of usage throughout the app. Especially for tests and ExleTxBot. | Blocked on Generics | Kii |
+| 1. Exle Generics | Exle-Generics is a module and building tool that will help with designing and utilizing boxes from the blockchain. The goal of this module is to provide building blocks, Box, Registers, Box Wrappers, Register Wrappers, Generic Txs and Txs Wrappers. | In Progress | Cheese & Kii |
+| 2. SLT Components | SLT-Components are components that are built in the Single-Lender module. It takes the design for SLT boxes and transactions and implements it on top of the Generics modules. This allows the ease of usage throughout the app. Especially for tests and ExleTxBot. | Blocked on Generics | Kii |
 | 3. [SLT Tx Flow](./slt-tx-flow.md) | Flow and path of the main transactions so that it can be easily understood. | Documentation Needed | Kii|
 | 4. SLT Box Design | In Exle, we utilize a highly draft-y method to record the design of the boxes. This pens down every part of the boxes which includes, the values, tokens, registers, and contract conditions | 1st Draft Completed | Kii |
 | 5. SLT Contracts | The guard script for each boxes in the SLT that determines whether the box can be spent or not. | 1st Draft Completed | Kii |
