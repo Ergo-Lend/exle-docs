@@ -39,7 +39,7 @@ In this article, we will discuss about the implementation that will be implement
 | 9. [SLT Tx Bot](#slttxbot) | Bots are heavily used within the Ergo System to process transactions and carry the boxes towards the next stages of the transaction flow. This Tx Bot will process SLT transactions that are ready to move towards the next stage. | Blocked on SLT-Components | Not Assigned |
 | 10. SLT Tests | This is the most important step to ensure the financial security of the protocol. Tests will be run heavily to ensure each tx flow works the way it should. This will also include tests for hacker scenarios to ensure that our protocol has the highest security. | Blocked by SLT-Components & Generics | Not Assigned |
 
-## SLT Tx Bot (#slttxbot)
+## SLT Tx Bot {#slttxbot}
 The SLT Tx Bot is in charged of processing txs to move towards the next step of the process. These steps will include:
 
 1. Creation Proxy Contract -> Loan Box Tx
