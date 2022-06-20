@@ -1,10 +1,10 @@
 ---
 id: slt-loan
-title: SLT (Single Lender Token) Loans
+title: SLT Loans
 sidebar_position: 1
 ---
 
-# SLT (Single Lender Token) Loans v0.1
+# SLT Loans v0.1
 
 ```text title="Development Status"
 IsImplemented: false
