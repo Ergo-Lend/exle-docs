@@ -45,7 +45,7 @@ In this case, we can sum up Bob's loan in the table below, followed by the data 
 | Bob's Loan | Test Loan | Bob | 1000 | 10% | 10 Months | 10 | SigUSD |
 | String | String | String | Long | Long | Long | Long | String |
 
-### 2. Fulfilling a loan (Step 2)
+### Fulfilling a loan (Step 2)
 When fulfilling a loan, the lender will look at the loan details from when a loan is created and make his decision on whether to fund it. And after he decided to fund, we have to store the data for who was the one who loan to him
 
 | Lender |
