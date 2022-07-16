@@ -99,6 +99,7 @@ Profit Sharing Amount = 2 SigUSD
 ```
 
 To summarize the numbers:
+
 | Amount Paid | Capital | Interest | Profit Sharing |
 | ---- | ---- | ---- | ---- |
 | 110 SigUSD | 100 SigUSD | 10 SigUSD | 2 SigUSD |
@@ -115,11 +116,13 @@ There's a catch in this. After repaying, **we have to record** what is the amoun
 This is to ensure that borrowers do not overpay, and also, that the system can keep track of this automatically.
 
 Month 1: 
+
 | Amount Repaid |
 | ---- |
 | 110 SigUSD |
 
 Month 2:
+
 | Amount Repaid |
 | ---- |
 | 220 SigUSD |
