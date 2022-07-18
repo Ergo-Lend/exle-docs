@@ -77,12 +77,13 @@ Interest = Capital * Interest Rate
 
 // Equation derivation
 Repayment = Capital + (Capital * Interest Rate)
-Repayment = Capital * (1 + 10%)
-Repayment = Capital * (1 + 10/100)
-Repayment = Capital * (110/100)
+Repayment = Capital * (1 + Interest Rate)
+Capital = Repayment / (1 + Interest Rate)
 
 // Capital calculation
-110 SigUSD = Capital * (110/100)
+Capital = 110 SigUSD / (1 + 10%)
+Capital = 110 SigUSD / (100/100 + 10/100)
+Capital = 110 SigUSD / (110/100)
 Capital = 110 SigUSD * (100/110)
 Capital = 100 SigUSD
 
@@ -105,7 +106,7 @@ To summarize the numbers:
 | 110 SigUSD | 100 SigUSD | 10 SigUSD | 2 SigUSD |
 
 The equations that are important from the calculation are these:
-1. Repayment = Capital * (1 + Interest Rate)
+1. Capital = Repayment / (1 + Interest Rate)
 2. Interest = Repayment - Capital
 3. Profit Sharing Amount = Interest * Profit Sharing Rate
 
